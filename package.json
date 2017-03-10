@@ -1,0 +1,23 @@
+{
+  "name": "prize-draw",
+  "version": "1.0.0",
+  "description": "A lottery app, base on electron",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ckjs/prize-draw.git"
+  },
+  "keywords": [
+    "electron",
+    "lottery"
+  ],
+  "author": "sehuo <stu.cbd@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ckjs/prize-draw/issues"
+  },
+  "homepage": "https://github.com/ckjs/prize-draw#readme"
+}
