@@ -1,10 +1,12 @@
 {
   "name": "prize-draw",
   "version": "1.0.0",
-  "description": "A lottery app, base on electron",
-  "main": "index.js",
+  "description": "A lottery application, base on electron",
+  "main": "main.js",
   "scripts": {
-    "test": ""
+    "start": "electron .",
+    "dev": "electron . --debug",
+    "lint": "eslint --fix ."
   },
   "repository": {
     "type": "git",
@@ -19,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/ckjs/prize-draw/issues"
   },
-  "homepage": "https://github.com/ckjs/prize-draw#readme"
+  "homepage": "https://github.com/ckjs/prize-draw#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "^1.6.2",
+    "electron-packager": "^8.5.2",
+    "eslint": "^3.17.1",
+    "eslint-config-egg": "^3.2.0"
+  }
 }
